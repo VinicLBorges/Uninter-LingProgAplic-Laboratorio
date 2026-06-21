@@ -53,6 +53,13 @@ ENTITY_HEALTH = {
     'Enemy2Shot': 1,
 }
 
+ENTITY_SHOT_DELAY = {
+    'Player1': 20,
+    'Player2': 15,
+    'Enemy1': 100,
+    'Enemy2': 200,
+}
+
 # M
 MENU_OPTION = ('NEW GAME 1P',
                'NEW GAME 2P - COOPERATIVE',
