@@ -9,6 +9,7 @@ C_CYAN = (0, 128, 128)
 
 # E
 EVENT_ENEMY = pygame.USEREVENT + 1
+EVENT_TIMEOUT = pygame.USEREVENT + 2
 ENTITY_SPEED = {
     'Level1Bg0': 0,
     'Level1Bg1': 1,
@@ -128,6 +129,11 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_RCTRL,
 
 # S
 SPAWN_TIME = 4000
+
+# T
+TIMEOUT_STEP = 100
+TIMEOUT_LEVEL = 20000
+
 # W
 WIN_WIDTH = 576
 WIN_HEIGHT = 324
